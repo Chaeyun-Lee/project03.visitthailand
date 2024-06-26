@@ -1,0 +1,98 @@
+.midBlock{
+    width:100vw;
+    height:400px;
+    display: flex;
+    flex-flow:row nowrap;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/temple-1670926_1280.jpg) no-repeat;
+    background-position:center center;
+    background-size: cover;
+    color:#ffffff;
+}
+.prev,.forward{
+    height: 100%;
+    flex:1.5;
+    backdrop-filter: brightness(0.5);
+    display: flex;
+    flex-flow:column nowrap;
+    justify-content: center;
+}
+.prev > a, .forward > a{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    text-align: center;
+    height: 50px;
+    padding:10px 0;
+;
+}
+.prev > a > p, .forward > a > p{
+    line-height: 30px;
+    margin:0 20px;
+}
+.prev > a > span, .forward > a > span{
+    font-size: 2em;
+    line-height: 30px;
+}
+.secondPageBg{
+    background: url(../img/royal-hall-copy1480003_1280.jpg) no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    color:#ffffff;
+    font-family: "감탄로드돋움T";
+}
+.text{
+    backdrop-filter: brightness(0.5);
+    flex:5;
+    height: 100%;
+    text-align: center;
+    display:flex;
+    flex-flow:column nowrap;
+    justify-content: center;
+    gap:10px;
+}
+.midTitle{
+    font-size:3.5em;
+    font-weight: 800;
+}
+.secondMenuBar{
+    width:100vw;
+    height: 50px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+.secondMenuBar > ul{
+    width:max-content;
+    margin:0 auto;
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    gap:30px;
+    color:#555555;
+}
+.secondMenuBar > ul > li > a{
+    display: block;
+    height: 100%;
+    padding:15px 0;
+}
+.secondMenuBar > ul > li > a:hover, .secondMenuBar > ul > li > a:focus, .activated{
+    border-bottom: 2px solid rgb(255,194,12);
+    color:#000000;
+}
+.mainPage{
+    text-align: center;
+    padding-top:50px;
+    height: max-content;
+}
+.mainPage > h2{
+    margin:40px 0;
+    font-size:2.4em;
+}
+.innerPage{
+    padding:0 100px;
+    height: 80vh;
+    display: flex;
+    flex-flow: row nowrap;
+    margin:50px 0;
+}
