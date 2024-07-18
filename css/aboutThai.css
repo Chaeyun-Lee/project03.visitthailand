@@ -76,7 +76,7 @@
     height: 100%;
     padding:15px 0;
 }
-.secondMenuBar > ul > li > a:hover, .secondMenuBar > ul > li > a:focus, .activated{
+.secondMenuBar > ul > li > a:hover, .activated{
     border-bottom: 2px solid rgb(255,194,12);
     color:#000000;
 }
@@ -84,6 +84,9 @@
     text-align: center;
     padding-top:50px;
     height: max-content;
+}
+.hiddenPage{
+    display: none;
 }
 .mainPage > h2{
     margin:40px 0;

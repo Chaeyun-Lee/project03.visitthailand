@@ -5,7 +5,7 @@
     flex-flow:row nowrap;
     justify-content: center;
     align-items: center;
-    background: url(../img/temple-1670926_1280.jpg) no-repeat;
+    background: url(../img/temple-5127680_1280.jpg) no-repeat;
     background-position:center center;
     background-size: cover;
     color:#ffffff;
@@ -85,28 +85,67 @@
     padding-top:50px;
     height: max-content;
 }
+.hiddenPage{
+    display: none;
+}
 .mainPage > h2{
     margin:40px 0;
     font-size:2.4em;
 }
+.mainPage > p {
+    width:60%;
+    margin:0 auto;
+    line-height: 1.6em;
+}
 .innerPage{
     padding:0 100px;
-    height: 80vh;
-    display: flex;
-    flex-flow: column nowrap;
-    margin:50px 0;
+    height: fit-content;
+    margin:80px 0;
+    position:relative;
+}
+.leftImg{
+    text-align: left;
+}
+.rightImg{
+    text-align: right;
+}
+.imgAside, .textAside{
+    display: inline-block;
+}
+.imgAside{
+    width:900px;
+    height: 500px;
+    border-radius:0px;
+    overflow: hidden;
+}
+.imgAside >img{
+    height: 100%;
 }
 .textAside{
-    padding:0px 0;
+    position:absolute;
+    top:50%;
+    right:10%;
+    transform:translateY(-50%);
+    width:600px;
+    height: 250px;
+    padding:50px 20px;
+    background-color: #ffffff;
+    border-top:5px solid rgb(237, 28, 145);
+    text-align: center;
+}
+.rightText{
+    left:10%;
+}
+.textAside > h3{
+    font-size: 2em;
 }
 .textAside > p{
-    margin:30px 0;
-    line-height: 1.8em;
+    font-family: "감탄로드돋움T";
+    margin:20px 0;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.4em;
 }
 .miniTitle{
     font-weight: 800;
-    display: inline-block;
-    width:100px;
-    text-align: center;
-    margin: 0 20px;
 }

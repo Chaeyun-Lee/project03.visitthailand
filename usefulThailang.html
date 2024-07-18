@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>태국 관광청 - 태국 정보</title>
+    <title>유용한 태국어</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/7200e6d681.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" 
+	src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=rjqs3fedqf"></script>
     <link rel="stylesheet" href="./css/thaiHeader.css">
-    <link rel="stylesheet" href="./css/aboutThai.css">
+    <link rel="stylesheet" href="./css/usefulThailang.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
@@ -70,13 +72,13 @@
                 <span class="material-symbols-outlined">
                     arrow_back_ios
                   </span>
-                <p>태국관광청</p></a></div>
+                <p>태국 관광청</p></a></div>
             <div class="text">
                 <p class="midTitle">태국 정보</p>
                 <p>출입국 정보부터 역사와 날씨, 가이드북까지 한눈에 알아보세요.</p>
             </div>
             <div class="forward"><a href="./themeTour.html">
-                <p>테마여행</p>
+                <p>테마 여행</p>
                 <span class="material-symbols-outlined">
                     arrow_forward_ios
                 </span>
@@ -84,14 +86,14 @@
         </div>
         <div class="secondMenuBar">
             <ul>
-                <li><a href="aboutThai.html" class="secondMenuli activated">태국 소개</a></li>
-                <li><a href="usefulThailang.html" class="secondMenuli">유용한 태국어</a></li>
+                <li><a href="aboutThai.html" class="secondMenuli">태국 소개</a></li>
+                <li><a href="usefulThailang.html" class="secondMenuli activated">유용한 태국어</a></li>
                 <li><a href="ThaiInfoUnpp.html" class="secondMenuli">문화 & 역사</a></li>
                 <li><a href="ThaiInfoUnpp.html" class="secondMenuli">날씨</a></li>
                 <li><a href="ThaiInfoUnpp.html" class="secondMenuli">비자 & 세관</a></li>
             </ul>
         </div>
-        <div class="mainPage">
+        <div class="mainPage hiddenPage">
             <h2>다채로운 매력으로 가득한 태국을 소개합니다.</h2>
             <div class="innerPage">
                 <div class="imgAside"><img src="./img/bangkok-1759467_1280.jpg" alt=""></div>
@@ -154,6 +156,154 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+        <div class="mainPage">
+            <h2>이 정도는 알고 떠나자! 여행에 꼭 필요한 기본 태국어</h2>
+            <p>태국어의 말의 순서는 한국어와 같다. 단, 5개의 성조와 장음, 단음을 구분해야 한다. <br>같은 단어라도 끝을 올리는지, 내리는지, 발음을 길게 하는지, 짧게 하는지에 따라 전혀 다른 단어가 된다.</p>
+            <div class="innerPage">
+                <div class="textAside">
+                    <h3>인사</h3>
+                    <p>가장 기본적인 인사는 <span class="miniTitle">‘싸왓디’</span>이며, 두 손을 합장한 자세로 허리를 숙이며 말한다. <br>뒤에 캅이나 카를 붙이면 높임말이 된다. 말하는 사람이 <span class="miniTitle">남자일 경우는 캅, 여자일 경우는 카</span>를 붙이면 된다.</p>
+                    <table>
+                        <tr>
+                            <th>한국어</th>
+                            <th>태국어</th>
+                            <th>태국어 표기</th>
+                        </tr>
+                        <tr>
+                            <td>안녕하세요</td>
+                            <td>싸왓디 캅(카)</td>
+                            <td>สวัสดีครับ(ค่ะ)</td>
+                        </tr>
+                        <tr>
+                            <td>감사합니다</td>
+                            <td>컵쿤 캅(카)</td>
+                            <td>ขอบคุณครับ(ค่ะ)</td>
+                        </tr>
+                        <tr>
+                            <td>실례합니다, 죄송합니다</td>
+                            <td>커 톳 캅(카)</td>
+                            <td>ขอโทษครับ(ค่ะ)</td>
+                        </tr>
+                        <tr>
+                            <td>괜찮습니다</td>
+                            <td>마이 뺀 라이 캅(카)</td>
+                            <td>ไม่เป็นไรครับ(ค่ะ)</td>
+                        </tr>
+                        <tr>
+                            <td>도와주세요</td>
+                            <td>추어이 두어이</td>
+                            <td>ช่วยด้วย</td>
+                        </tr>
+                        <tr>
+                            <td>몰라요</td>
+                            <td>마이 루</td>
+                            <td>ไม่รู้</td>
+                        </tr>
+                        <tr>
+                            <td>할 줄 몰라요</td>
+                            <td>(탐)마이 뺀</td>
+                            <td>(ทำ)ไม่เป็น</td>
+                        </tr>
+                        <tr>
+                            <td>할 수 없어요</td>
+                            <td>마이 다이</td>
+                            <td>ไม่ได้</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="innerPage">
+                <div class="textAside">
+                    <h3>쇼핑</h3>
+                    <p>시장에서 사용 가능한 태국어 한마디</p>
+                    <table>
+                        <tr>
+                            <th>한국어</th>
+                            <th>태국어</th>
+                            <th>태국어 표기</th>
+                        </tr>
+                        <tr>
+                            <td>얼마입니까?</td>
+                            <td>타올라이 캅(카)</td>
+                            <td>เท่าไหร่ครับ(คะ)</td>
+                        </tr>
+                        <tr>
+                            <td>비쌉니다</td>
+                            <td>팽 막</td>
+                            <td>แพงมาก</td>
+                        </tr>
+                        <tr>
+                            <td>깎아 주세요</td>
+                            <td>롯 라카너이 다이마이 (카/ 크랍)</td>
+                            <td>ลดราคาหน่อยได้ไหมคะ /ครับ</td>
+                        </tr>
+                        <tr>
+                            <td>이거 주세요</td>
+                            <td>커 안니</td>
+                            <td>ขออันนี้</td>
+                        </tr>
+                        <tr>
+                            <td>충분합니다</td>
+                            <td>퍼 레우</td>
+                            <td>พอแล้ว</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="innerPage">
+                <div class="textAside">
+                    <h3>음식점</h3>
+                    <p>음식점에서 사용 가능한 태국어 한마디</p>
+                    <table>
+                        <tr>
+                            <th>한국어</th>
+                            <th>태국어</th>
+                            <th>태국어 표기</th>
+                        </tr>
+                        <tr>
+                            <td>메뉴 주세요</td>
+                            <td>커 두 메누 너이 캅(카)</td>
+                            <td>ขอดูเมนูหน่อยครับ(ค่ะ)</td>
+                        </tr>
+                        <tr>
+                            <td>맛있습니다.</td>
+                            <td>아러이 캅(카)</td>
+                            <td>อร่อยครับ(ค่ะ)</td>
+                        </tr>
+                        <tr>
+                            <td>계산해 주세요</td>
+                            <td>첵 빈 캅(카) / 깹땅 너이 캅(카)</td>
+                            <td>เช็คบิลครับ(ค่ะ) / เก็บเงินหน่อยครับ(ค่ะ)</td>
+                        </tr>
+                        <tr>
+                            <td>물 주세요</td>
+                            <td>커 남 너이 캅(카)</td>
+                            <td>ขอน้ำหน่อยครับ(ค่ะ)</td>
+                        </tr>
+                        <tr>
+                            <td>얼음 주세요</td>
+                            <td>커 남캥 너이 캅(카)</td>
+                            <td>ขอน้ำแข็งหน่อยครับ(ค่ะ)</td>
+                        </tr>
+                        <tr>
+                            <td>맥주 주세요</td>
+                            <td>커 비아 너이 캅(카)</td>
+                            <td>ขอเบียร์หน่อยครับ(ค่ะ)</td>
+                        </tr>
+                        <tr>
+                            <td>고수 넣지 마세요</td>
+                            <td>마이 싸이 팍치</td>
+                            <td>ไม่ใส่ผักชี</td>
+                        </tr>
+                        <tr>
+                            <td>맵지 않게 해 주세요</td>
+                            <td>마이 아오 펫</td>
+                            <td>ไม่เอาเผ็ด</td>
+                        </tr>
+                    </table>
                 </div>
             </div>
         </div>
