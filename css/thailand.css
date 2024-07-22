@@ -145,13 +145,8 @@ main{
   z-index: 1;
   position: absolute;
 }
-.imgBox {
-  /* width: 80vw;
-  height: 100vh;
-  border-radius: 100px;
-  overflow: hidden;
-  margin:0 auto;
-  transition: all 0.5s ; */
+.mainPage:nth-child(1), .mainPage:nth-child(2){
+  display: none;
 }
 .imgBox > img {
   width:100vw;

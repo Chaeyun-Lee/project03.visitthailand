@@ -45,6 +45,7 @@ $(function (){
       });
 });
 
+//mainpage 페이드 인아웃 슬라이드
 $(function () {
     let num = 1;
     function slideCover() {
